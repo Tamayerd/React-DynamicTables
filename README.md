@@ -4,34 +4,35 @@ This project is a dynamic table application created using React. When data is ma
 
 - JSON Model
 ```topojson
-  selected = {
-        configuration: [
-          {
-            output: selected,
-            unit: selectedSlave,
-            type: selectedOption,
-            name: selectedIndicator,
-          },
-        ],
-        bmsconfiguration: {
-          count: Count,
-        },
-        generatconfiguration: {
-          count: generatorCount,
-          fuel_tank_count: fuelTankCount,
-        },
-        camconfiguration: {
-          front_camera: frontCam,
-          back_camera: backCam,
-          birdeye_view_configuration: selectedCamera,
-        },
-        mapconfiguration: {
-          has_map: selectedMap,
-        },
-        screenconfiguration: {
-          count: selectedScreen,
-        },
-      };
+ const selected = {
+  configuration: [
+    {
+      output: selectedOutput,
+      unit: selectedSlave,
+      type: selectedOption,
+      name: selectedIndicator,
+    },
+  ],
+  bmsconfiguration: {
+    count: Count,
+  },
+  generatconfiguration: {
+    count: generatorCount,
+    fuel_tank_count: fuelTankCount,
+  },
+  camconfiguration: {
+    front_camera: frontCam,
+    back_camera: backCam,
+    birdeye_view_configuration: selectedCamera,
+  },
+  mapconfiguration: {
+    has_map: selectedMap,
+  },
+  screenconfiguration: {
+    count: selectedScreen,
+  },
+};
+
 ```
 ## Usage
 
