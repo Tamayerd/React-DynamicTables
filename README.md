@@ -2,38 +2,7 @@
 
 This project is a dynamic table application created using React. When data is manually entered by the user, it is stored in a JSON file, and a JSON file is generated on the Node.js side. The project provides a user interface (UI) using tools such as MUI Tools and Bootstrap.
 
-- JSON Model
-```topojson
-{
-  configuration: [
-    {
-      output: selectedOutput,
-      unit: selectedSlave,
-      type: selectedOption,
-      name: selectedIndicator,
-    },
-  ],
-  bmsconfiguration: {
-    count: Count,
-  },
-  generatconfiguration: {
-    count: generatorCount,
-    fuel_tank_count: fuelTankCount,
-  },
-  camconfiguration: {
-    front_camera: frontCam,
-    back_camera: backCam,
-    birdeye_view_configuration: selectedCamera,
-  },
-  mapconfiguration: {
-    has_map: selectedMap,
-  },
-  screenconfiguration: {
-    count: selectedScreen,
-  },
-};
 
-```
 ## Usage
 
 To work on the project, follow the steps below:
