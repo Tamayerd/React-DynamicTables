@@ -4,7 +4,7 @@ This project is a dynamic table application created using React. When data is ma
 
 - JSON Model
 ```topojson
- const selected = {
+{
   configuration: [
     {
       output: selectedOutput,
